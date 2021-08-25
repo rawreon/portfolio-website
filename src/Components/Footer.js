@@ -19,6 +19,8 @@ class Footer extends Component {
       <footer>
         <div className="row">
           <Fade bottom>
+            <h2>Contact me at:</h2>
+            <h3>wayneji890@gmail.com</h3>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
