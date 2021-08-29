@@ -3,9 +3,6 @@ import Slide from "react-reveal";
 
 
 class Resume extends Component {
-
-  
-
   getRandomColor() {
     let letters = "0123456789ABCDEF";
     let color = "#";
@@ -17,8 +14,6 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-    
-    const resumeDownload = this.props.data.resumedownload;
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
@@ -49,6 +44,7 @@ class Resume extends Component {
         </div>
       );
     });
+    
 
     const skills = this.props.data.skills.map((skills) => {
       const backgroundColor = this.getRandomColor();
@@ -82,7 +78,7 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row work">
+          <div id = "projects" className="row work">
             <div className="three columns header-col">
               <h1>
                 <span>Projects</span>
@@ -91,6 +87,22 @@ class Resume extends Component {
             <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
+        
+        <section id="pdf">
+          <Slide left duration={1300}>
+            <div className="row work">
+              <div className="three columns header-col">
+                <h1>
+                  <span>Resume</span>
+                </h1>
+              </div>
+              <div className="nine columns main-col">
+                <object width="100%" height="700" data="grad_resume_ngp.pdf" type="application/pdf"></object>
+              </div>
+            </div>
+          </Slide>
+        </section>
+
 
         <Slide left duration={1300}>
           <div className="row skill">
@@ -109,6 +121,8 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
+
+        
       </section>
     );
   }

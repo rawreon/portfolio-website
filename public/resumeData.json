@@ -1,22 +1,21 @@
 {
   "main": {
     "name":"Wayne Ji",
-    "description":"Programmer and analyst immersed in the world of data",
+    "description":"Programmer and analyst with a data driven mindset",
     "image":"profilepic.jpg",
     "bio":"Chances are if you are reading this, I have applied for a job or you have seen my resume. I just graduated from university in May 2021, and am looking for an opportunity to apply my skills. What I lack in experience I make up with the ability to learn at an accelerated rate. I have a laser focus and dedication to complete any task to the best of my ability. In my free time I like to catch up on competitive Valorant or even play the occasional game myself. Reach out to me if you have any questions, or just talk gaming.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "contactmessage":"",
+    "email": "wayneji890@gmail.com",
     "github":"https://github.com/rawreon",
     "linkedin" : "https://www.linkedin.com/in/wayne-ji-b577a6170/",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
     },
     "website": "",
-    "resumedownload":"https://drive.google.com/file/d/1Ej0OAV-C7eXad-s2oYwGqJkWH4j8763R/view?usp=sharing",
+    "resumedownload":"grad_resume_ngp.pdf",
     "social":[
       
       {
@@ -43,16 +42,37 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
+        "company":"Feed-grain Price Prediction Model",
+        "title":"Carolina Data Challenge 2019 CDC Feed-grains Agricultural Dataset Analysis ",
+        "years":"R | Tableau",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "url": "https://www.youtube.com/"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
+        "company":"Dota2 Win Percentage Model",
+        "title":"Final Project for STOR 565 Machine Learning",
+        "years":"Python | R | API",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "url":"https://readmanganato.com/manga-bt978676"
+      },
+      {
+        "company":"Dota2 Win Percentage Model",
+        "title":"Final Project for STOR 565 Machine Learning",
+        "years":"Python | R | API",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "url":"https://readmanganato.com/manga-bt978676"
+      },
+      {
+        "company":"Dota2 Win Percentage Model",
+        "title":"Final Project for STOR 565 Machine Learning",
+        "years":"Python | R | API",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
+        "url":"https://readmanganato.com/manga-bt978676"
+      },
+      {
+        "company":"Dota2 Win Percentage Model",
+        "title":"Final Project for STOR 565 Machine Learning",
+        "years":"Python | R | API",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "url":"https://readmanganato.com/manga-bt978676"
       }

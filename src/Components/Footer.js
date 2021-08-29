@@ -15,13 +15,15 @@ class Footer extends Component {
       );
     });
 
+    const email = this.props.data.email;
+
     return (
       <footer id="footer">
         <div className="row">
           <Fade bottom>
             <div className = "contact-foot">
               <h2>Contact me at:</h2>
-              <h3>wayneji890@gmail.com</h3>
+              <h3>{email}</h3>
             </div>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
@@ -30,8 +32,9 @@ class Footer extends Component {
                 <li>
                   Inspired by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout, Tweaked by Me
+                    Styleshout.
                   </a>
+                   {" "}Tweaked by Me.
                 </li>
               </ul>
             </div>
