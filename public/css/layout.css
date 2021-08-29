@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+/*ul#nav li.current a { color: #fe6928; }*/
 
 
 /* ------------------------------------------------------------------ */
@@ -183,8 +183,8 @@ ul#nav li.current a { color: #fe6928; }
 
 #about {
    background: #000524;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 50px;
+   padding-bottom: 50px;
    overflow: hidden;
 }
 
@@ -264,7 +264,7 @@ ul#nav li.current a { color: #fe6928; }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
-   margin-bottom: 18px;
+   margin-bottom: 9px;
    margin-top: 9px;
 }
 #resume .info span {
@@ -275,6 +275,36 @@ ul#nav li.current a { color: #fe6928; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
+#resume .button1{
+   display:inline-block;
+   padding:0.35em 1.2em;
+   border:0.1em solid #000000;
+   margin:0 0.3em 0.3em 0;
+   border-radius:0.12em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:'Roboto',sans-serif;
+   font-weight:300;
+   color:#000000;
+   text-align:center;
+   transition: all 0.2s;
+   margin-bottom: 15px;
+}
+
+#resume .button1:hover{
+   color:#000000;
+   background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em){
+   #resume .button1{
+      display:block;
+      margin:0.4em auto;
+   }
+}
+
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -932,6 +962,17 @@ footer {
    font-size: 14px;
    text-align: center;
    position: relative;
+}
+
+footer h2 {
+   margin-bottom: 30px;
+   color:#fff
+   
+}
+
+footer h3{
+   font-size: 300%;
+   color:#fff
 }
 
 footer a, footer a:visited { color: #525252; }

@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
 
+
 class Resume extends Component {
+
+  
+
   getRandomColor() {
     let letters = "0123456789ABCDEF";
     let color = "#";
@@ -13,7 +17,8 @@ class Resume extends Component {
 
   render() {
     if (!this.props.data) return null;
-
+    
+    const resumeDownload = this.props.data.resumedownload;
     const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
@@ -34,9 +39,13 @@ class Resume extends Component {
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+            <span>&bull;</span> <em className="date">{work.years} </em>
           </p>
           <p>{work.description}</p>
+          <a href={work.url} className="button1">
+                      <i></i>Github
+          </a>  
+          
         </div>
       );
     });
@@ -53,7 +62,7 @@ class Resume extends Component {
         </li>
       );
     });
-
+   
     return (
       <section id="resume">
         <Slide left duration={1300}>
@@ -79,7 +88,6 @@ class Resume extends Component {
                 <span>Projects</span>
               </h1>
             </div>
-
             <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>

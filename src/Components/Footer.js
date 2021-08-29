@@ -8,7 +8,7 @@ class Footer extends Component {
     const networks = this.props.data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} rel="noreferrer" target="_blank">
             <i className={network.className}></i>
           </a>
         </li>
@@ -16,20 +16,21 @@ class Footer extends Component {
     });
 
     return (
-      <footer>
+      <footer id="footer">
         <div className="row">
           <Fade bottom>
-            <h2>Contact me at:</h2>
-            <h3>wayneji890@gmail.com</h3>
+            <div className = "contact-foot">
+              <h2>Contact me at:</h2>
+              <h3>wayneji890@gmail.com</h3>
+            </div>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
                 <li>
-                  Design by{" "}
+                  Inspired by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
+                    Styleshout, Tweaked by Me
                   </a>
                 </li>
               </ul>
