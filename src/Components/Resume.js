@@ -37,7 +37,7 @@ class Resume extends Component {
             <span>&bull;</span> <em className="date">{work.years} </em>
           </p>
           <p>{work.description}</p>
-          <a href={work.url} className="button1">
+          <a href={work.url} rel="noreferrer" target="_blank" className="button1">
                       <i></i>Github
           </a>  
           
