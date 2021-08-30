@@ -3,7 +3,7 @@
     "name":"Wayne Ji",
     "description":"Programmer and analyst with a data driven mindset",
     "image":"profilepic.jpg",
-    "bio":"Chances are if you are reading this, I have applied for a job or you have seen my resume. I just graduated from university in May 2021, and am looking for an opportunity to apply my skills. What I lack in experience I make up with the ability to learn at an accelerated rate. I have a laser focus and dedication to complete any task to the best of my ability. In my free time I like to catch up on competitive Valorant or even play the occasional game myself. Reach out to me if you have any questions, or just talk gaming.",
+    "bio":"Chances are if you are reading this, I have applied for a job or you have seen my resume. I just graduated from university in May 2021, and am looking for an opportunity to apply my skills. What I lack in experience I make up with the ability to learn at an accelerated rate with a laser focus and dedication to prove my compentency. My free time includes reading web comics and watching competitive Valorant, or playing the occasional game myself.",
     "contactmessage":"",
     "email": "wayneji890@gmail.com",
     "github":"https://github.com/rawreon",
@@ -42,39 +42,39 @@
     ],
     "work":[
       {
-        "company":"Feed-grain Price Prediction Model",
-        "title":"Carolina Data Challenge 2019 CDC Feed-grains Agricultural Dataset Analysis ",
+        "company":"Predicting Feed-grain Prices From Weather Features",
+        "title":"Competing in the 2019 Carolina Data Challenge working with the 2019 CDC Feed-grains Agricultural Dataset  ",
         "years":"R | Tableau",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
         "url": "https://www.youtube.com/"
       },
       {
-        "company":"Dota2 Win Percentage Model",
+        "company":"Predicting Win Percentage From Text in Dota2",
         "title":"Final Project for STOR 565 Machine Learning",
-        "years":"Python | R | API",
+        "years":"Python | R ",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "url":"https://readmanganato.com/manga-bt978676"
+        "url":"https://github.com/SriganeshG/Text-Mining-in-DotA-2"
       },
       {
-        "company":"Dota2 Win Percentage Model",
-        "title":"Final Project for STOR 565 Machine Learning",
-        "years":"Python | R | API",
+        "company":"Informational Website on Home Purchase Loans",
+        "title":"Competing in the 2020 Carolina Data Challenge working with the 2018 HDMA Home Purchase Loan Applications Dataset",
+        "years":"Python | R | Tableau",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "url":"https://readmanganato.com/manga-bt978676"
+        "url":"https://github.com/Carolina-Data-Challenge/sanChenJi"
       },
       {
-        "company":"Dota2 Win Percentage Model",
-        "title":"Final Project for STOR 565 Machine Learning",
-        "years":"Python | R | API",
+        "company":"Guessify",
+        "title":"Website created for COMP 426 Web Programming",
+        "years":"Javascript | JQuery | HTML | CSS",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "url":"https://readmanganato.com/manga-bt978676"
+        "url":"https://github.com/manleigh/guessify"
       },
       {
-        "company":"Dota2 Win Percentage Model",
-        "title":"Final Project for STOR 565 Machine Learning",
-        "years":"Python | R | API",
+        "company":"Forward",
+        "title":"Visual novel created for COMP 585 Serious Games",
+        "years":"Godot",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.",
-        "url":"https://readmanganato.com/manga-bt978676"
+        "url":"https://github.com/Nivrad00/social-landmines"
       }
     ],
     "skills":[
