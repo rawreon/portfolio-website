@@ -13,8 +13,8 @@ class About extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
-    const name = this.props.data.name;*/
-    const resumeDownload = this.props.data.resumedownload;
+    const name = this.props.data.name;
+    const resumeDownload = this.props.data.resumedownload;*/
 
     return (
       <section id="about">
@@ -31,10 +31,7 @@ class About extends Component {
               <h2>About Me</h2>
 
               <p>{bio}</p>
-              <div className="row">
-                <div className="columns contact-details">
-                  
-                </div>
+              {/*<div className="row">
                 <div className="columns download">
                   <p>
                     <a href={resumeDownload} className="button" rel="noreferrer" target="_blank">
@@ -42,7 +39,7 @@ class About extends Component {
                     </a>
                   </p>
                 </div>
-              </div>
+              </div>*/}
             </div>
           </div>
         </Fade>

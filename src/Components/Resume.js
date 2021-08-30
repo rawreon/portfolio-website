@@ -44,6 +44,8 @@ class Resume extends Component {
         </div>
       );
     });
+
+    const resumeDownload = this.props.data.resumedownload;
     
 
     const skills = this.props.data.skills.map((skills) => {
@@ -99,6 +101,17 @@ class Resume extends Component {
               <div className="nine columns main-col">
                 <object width="100%" height="700" data="grad_resume_ngp.pdf" type="application/pdf"></object>
               </div>
+              <div className="nine columns main-col">
+              <div className="row">
+                <div className="columns download">
+                  <p>
+                    <a href={resumeDownload} className="button" rel="noreferrer" target="_blank">
+                      <i className="fa fa-download"></i>Download Resume
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
             </div>
           </Slide>
         </section>

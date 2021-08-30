@@ -207,23 +207,7 @@ ul#nav li a:active { background-color: transparent !important; }
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
-#about .main-col { padding-right: 5%; }
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
-#about .download .button:hover {
-   background: #fff;
-   color: #2B2B2B;
-}
-#about .download .button i {
-   margin-right: 15px;
-   font-size: 20px;
-}
+
 
 
 /* ------------------------------------------------------------------ */
@@ -295,6 +279,25 @@ ul#nav li a:active { background-color: transparent !important; }
 #resume .button1:hover{
    color:#000000;
    background-color: #FFFFFF;
+}
+
+#resume .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#resume .main-col { padding-right: 5%; }
+#resume .download .button {
+   margin-top: 6px;
+   background: #444;
+   color: #fff;
+}
+#resume .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#resume .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
 }
 
 @media all and (max-width:30em){
