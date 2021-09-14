@@ -30,13 +30,19 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here is how comfortable I am using these skills:",
+    "skillmessage":"A relevant comic:",
     "education":[
       {
         "school":"University of North Carolina at Chapel Hill",
         "degree":"Bachelors of Science in Statistics and Computer Science",
         "graduated":"May 2021",
         "description":"Spent two and a half years on the wonderful campus of UNC-Chapel Hill, and then the last one and half years of my college career attending Zoom University due to a global pandemic."
+      },
+      {
+        "school":"Google Data Analytics Certification",
+        "degree":"Coursera",
+        "graduated":"September 2021",
+        "description":"Completed eight courses developed by Google teaching how to prepare, process, analyze, and share data for thoughtful action using spreadsheets, SQL, Tableau, and R."
       }
     ],
     "work":[
