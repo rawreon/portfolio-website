@@ -1,0 +1,121 @@
+{
+  "main": {
+    "name":"Wayne Ji",
+    "description":"Programmer and analyst with a data driven mindset",
+    "image":"profilepic.jpg",
+    "bio":"Chances are if you are reading this, I have applied for a job or you have seen my resume. I just graduated from university in May 2021, and am looking for an opportunity to apply my data analyzation and visualization skills. What I lack in experience I make up with the ability to learn at an accelerated rate with a laser focus and dedication to prove my compentency. My free time includes reading web comics, listening to music, and watching competitive Valorant, or playing the occasional game myself.",
+    "contactmessage":"",
+    "email": "wayneji890@gmail.com",
+    "github":"https://github.com/rawreon",
+    "linkedin" : "https://www.linkedin.com/in/wayne-ji-b577a6170/",
+    "address":{
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
+    },
+    "website": "",
+    "social":[
+      
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/wayne-ji-b577a6170/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/rawreon",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"A relevant comic:",
+    "education":[
+      {
+        "school":"University of North Carolina at Chapel Hill",
+        "degree":"Bachelors of Science in Statistics and Computer Science",
+        "graduated":"May 2021",
+        "description":"Spent two and a half years on the wonderful campus of UNC-Chapel Hill, and then the last one and half years of my college career attending Zoom University due to a global pandemic."
+      },
+      {
+        "school":"Google Data Analytics Certification",
+        "degree":"Coursera",
+        "graduated":"September 2021",
+        "description":"Completed eight courses developed by Google teaching how to prepare, process, analyze, and share data for thoughtful action using spreadsheets, SQL, Tableau, and R."
+      }
+    ],
+    "work":[
+      {
+        "company":"Predicting Feed-grain Prices From Weather Features",
+        "title":"Competing in the 2019 Carolina Data Challenge working with the 2019 CDC Feed-grains Agricultural Dataset  ",
+        "years":"R | Tableau",
+        "description":"For the 2019 Carolina Data Challenge, my team focused on analyzing the Center for Disease Control's 2019 Feed-grains agricultural dataset. We joined the price of feed-grains for each state with weather features gathered from the National Oceanic and Atmospheric Administration to create regression models in R using glmnet. We then created a Tableau dashboard to display our results on an interactive map, as well as infographics on weather features for each state. We presented our project to judges and won 1st place in the Best Use of Outside Data category.",
+        "url": "https://github.com/rawreon/CDC-2019-Feed-grains-analysis"
+      },
+      {
+        "company":"Predicting Win Percentage From Text in Dota2",
+        "title":"Final Project for STOR 565 Machine Learning",
+        "years":"Python | R ",
+        "description":"For a machine learning course, my group prepared the chat logs and match results of over 32,000 Dota2 games using OpenDotaR API in R. To predict how likely someone would win a Dota2 match from what they typed in chat, we created machine learning models utilizing sckit-learn in Python.  ",
+        "url":"https://github.com/SriganeshG/Text-Mining-in-DotA-2"
+      },
+      {
+        "company":"Informational Website on Home Purchase Loans",
+        "title":"Competing in the 2020 Carolina Data Challenge working with the 2018 HMDA Home Purchase Loan Applications Dataset",
+        "years":"Python | R | Tableau",
+        "description":"For the 2020 Carolina Data Challenge, my team focused on analyzing 2018 HMDA Home Purchase Loan Applications. Focusing on loan approval rates across counties in North Carolina, we processed and analyzed the data in R. We used Tableau to create interactive maps and infographics, which we integrated and displayed on an informational website.   ",
+        "url":"https://github.com/Carolina-Data-Challenge/sanChenJi"
+      },
+      {
+        "company":"Guessify",
+        "title":"Website created for COMP 426 Web Programming",
+        "years":"Javascript | JQuery | HTML | CSS",
+        "description":"For a web development course, my group created a game where the player guesses the song or artist name from a fifteend second song sample. Our website was developed using JQuery, where we used SpotifyAPI to retrieve our song sample and information. We also utilized Google Firebase to allow creation of user accounts and store their top scores in a No-SQL database with Google Firestore.  ",
+        "url":"https://github.com/manleigh/guessify"
+      },
+      {
+        "company":"Forward",
+        "title":"Visual novel created for COMP 585 Serious Games",
+        "years":"Godot",
+        "description":"For a course on Serious Games, my group created a game aimed at helping adolescents re-enter school following hospitalization for suicide-related crises. Working through the SCRUM development process, we used the Godot game engine to create a visual novel where the player is able navigate social landmines in a simulated school setting.  ",
+        "url":"https://github.com/Nivrad00/social-landmines"
+      }
+    ],
+    "skills":[
+      {
+        "name":"R",
+        "level":"90%"
+      },
+      {
+        "name":"Python",
+        "level":"85%"
+      },
+      {
+        "name":"Tableau",
+        "level":"70%"
+      },
+      {
+        "name":"SQL",
+        "level":"60%"
+      },
+      {
+        "name":"MATLAB",
+        "level":"60%"
+      },
+      {
+        "name":"Javascript",
+        "level":"70%"
+      },
+      {
+        "name":"HTML",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      
+    ]
+  }
+}
