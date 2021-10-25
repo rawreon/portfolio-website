@@ -48,9 +48,9 @@
     "work":[
       {
         "company":"Predicting Feed-grain Prices From Weather Features",
-        "title":"Competing in the 2019 Carolina Data Challenge working with the 2019 CDC Feed-grains Agricultural Dataset  ",
+        "title":"Competing in the 2019 Carolina Data Challenge working with the 2019 USDA Feed-grains Agricultural Dataset  ",
         "years":"R | Tableau",
-        "description":"For the 2019 Carolina Data Challenge, my team focused on analyzing the Center for Disease Control's 2019 Feed-grains agricultural dataset. We joined the price of feed-grains for each state with weather features gathered from the National Oceanic and Atmospheric Administration to create regression models in R using glmnet. We then created a Tableau dashboard to display our results on an interactive map, as well as infographics on weather features for each state. We presented our project to judges and won 1st place in the Best Use of Outside Data category.",
+        "description":"For the 2019 Carolina Data Challenge, my team focused on analyzing the US Department of Agriculture's 2019 Feed-grains agricultural dataset. We joined the price of feed-grains for each state with weather features gathered from the National Oceanic and Atmospheric Administration to create regression models in R using glmnet. We then created a Tableau dashboard to display our results on an interactive map, as well as infographics on weather features for each state. We presented our project to judges and won 1st place in the Best Use of Outside Data category.",
         "url": "https://github.com/rawreon/CDC-2019-Feed-grains-analysis"
       },
       {
