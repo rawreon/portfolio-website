@@ -54,18 +54,18 @@
         "url": "https://github.com/rawreon/CDC-2019-Feed-grains-analysis"
       },
       {
-        "company":"Predicting Win Percentage From Text in Dota2",
-        "title":"Final Project for STOR 565 Machine Learning",
-        "years":"Python | R ",
-        "description":"For a machine learning course, my group prepared the chat logs and match results of over 32,000 Dota2 games using OpenDotaR API in R. To predict how likely someone would win a Dota2 match from what they typed in chat, we created machine learning models utilizing sckit-learn in Python.  ",
-        "url":"https://github.com/SriganeshG/Text-Mining-in-DotA-2"
-      },
-      {
         "company":"Informational Website on Home Purchase Loans",
         "title":"Competing in the 2020 Carolina Data Challenge working with the 2018 HMDA Home Purchase Loan Applications Dataset",
         "years":"Python | R | Tableau",
         "description":"For the 2020 Carolina Data Challenge, my team focused on analyzing 2018 HMDA Home Purchase Loan Applications. Focusing on loan approval rates across counties in North Carolina, we processed and analyzed the data in R. We used Tableau to create interactive maps and infographics, which we integrated and displayed on an informational website.   ",
         "url":"https://github.com/Carolina-Data-Challenge/sanChenJi"
+      },
+      {
+        "company":"Predicting Win Percentage From Text in Dota2",
+        "title":"Final Project for STOR 565 Machine Learning",
+        "years":"Python | R ",
+        "description":"For a machine learning course, my group prepared the chat logs and match results of over 32,000 Dota2 games using OpenDotaR API in R. To predict how likely someone would win a Dota2 match from what they typed in chat, we created machine learning models utilizing sckit-learn in Python.  ",
+        "url":"https://github.com/SriganeshG/Text-Mining-in-DotA-2"
       },
       {
         "company":"Guessify",
@@ -80,6 +80,13 @@
         "years":"Godot",
         "description":"For a course on Serious Games, my group created a game aimed at helping adolescents re-enter school following hospitalization for suicide-related crises. Working through the SCRUM development process, we used the Godot game engine to create a visual novel where the player is able navigate social landmines in a simulated school setting.  ",
         "url":"https://github.com/Nivrad00/social-landmines"
+      },
+      {
+        "company":"Graphing the Ebay prices of Sold Reference GPUs",
+        "title":"A personal project",
+        "years":"Python | R | API | Webscraping",
+        "description":"Using selenium and and BeautifulSoup in python, I scraped the prices of sold reference GPUs off Ebay into excel spreadsheets. I merged and cleaned the data in python, and created visualizations using ggplot2 in R. ",
+        "url": "https://github.com/rawreon/EbayGPUPrices"
       }
     ],
     "skills":[

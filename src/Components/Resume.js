@@ -97,13 +97,13 @@ class Resume extends Component {
                 </h1>
               </div>
               <div className="nine columns main-col">
-                <object width="100%" height="700" data="grad_resume_ngp.pdf" type="application/pdf"></object>
+                <object width="100%" height="700" data="Ji_Wayne_Resume.pdf" type="application/pdf"></object>
               </div>
               <div className="nine columns main-col">
               <div className="row">
                 <div className="columns download">
                   <p>
-                    <a href= "grad_resume_ngp.pdf"className="button" rel="noreferrer" target="_blank">
+                    <a href= "Ji_Wayne_Resume.pdf"className="button" rel="noreferrer" target="_blank">
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
