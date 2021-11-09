@@ -61,6 +61,13 @@
         "url":"https://github.com/Carolina-Data-Challenge/sanChenJi"
       },
       {
+        "company":"Predicting Win Percentage From Text in Dota2",
+        "title":"Final Project for STOR 565 Machine Learning",
+        "years":"Python | R ",
+        "description":"For a machine learning course, my group prepared the chat logs and match results of over 32,000 Dota2 games using OpenDotaR API in R. To predict how likely someone would win a Dota2 match from what they typed in chat, we created machine learning models utilizing sckit-learn in Python.  ",
+        "url":"https://github.com/SriganeshG/Text-Mining-in-DotA-2"
+      },
+      {
         "company":"Guessify",
         "title":"Website created for COMP 426 Web Programming",
         "years":"Javascript | JQuery | HTML | CSS",
